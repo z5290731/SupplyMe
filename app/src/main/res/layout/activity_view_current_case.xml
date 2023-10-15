@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EFEC"
+    tools:context=".viewCurrentCaseActivity">
+
+    <com.transferwise.sequencelayout.SequenceLayout
+        android:id="@+id/sequenceLayout"
+        android:layout_width="337dp"
+        app:progressForegroundColor="#EF6351"
+        android:layout_height="360dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7">
+
+        <com.transferwise.sequencelayout.SequenceStep
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Application Submitted" />
+
+        <com.transferwise.sequencelayout.SequenceStep
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Application Received" />
+
+        <com.transferwise.sequencelayout.SequenceStep
+            android:layout_width="296dp"
+            android:layout_height="wrap_content"
+            app:active="true"
+            app:subtitle="Isabel Kim is currently reviewing your application"
+            app:title="Reviewing Application"
+            app:titleTextAppearance="@style/TextAppearance.AppCompat.Title"
+            tools:layout_editor_absoluteX="32dp"
+            tools:layout_editor_absoluteY="641dp" />
+
+        <com.transferwise.sequencelayout.SequenceStep
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Rework Required" />
+
+        <com.transferwise.sequencelayout.SequenceStep
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Application Accepted" />
+
+        <com.transferwise.sequencelayout.SequenceStep
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Items Packed" />
+
+        <com.transferwise.sequencelayout.SequenceStep
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Goods Dispatched" />
+
+        <com.transferwise.sequencelayout.SequenceStep
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="Goods Delivered"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="722dp" />
+    </com.transferwise.sequencelayout.SequenceLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="161dp"
+        android:background="#06aed5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rectanglemain" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Application #2611"
+        android:textAlignment="viewStart"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="53dp"
+        android:layout_height="49dp"
+        android:background="#06aed5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <ImageButton
+        android:id="@+id/imageButton9"
+        android:layout_width="53dp"
+        android:layout_height="49dp"
+        android:background="#06aed5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_help_24" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="328dp"
+        android:layout_height="127dp"
+        android:layout_marginTop="28dp"
+        android:background="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.43"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/rectanglemain" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="Date Required"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toStartOf="@+id/tvDateRequired"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/tvDateRequired"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        android:text="18/04/2022"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toTopOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/tvQuantity"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        android:text="200"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/tvItemRequested" />
+
+    <TextView
+        android:id="@+id/tvSupplier"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        android:text="ProcureMe"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/tvQuantity" />
+
+    <TextView
+        android:id="@+id/tvSizeSelected"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        android:text="No Selection"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/tvSupplier" />
+
+    <TextView
+        android:id="@+id/tvItemRequested"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="16dp"
+        android:text="Scott's Totts Heavy Duty Ply College Grade Paper"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/tvDateRequired" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Item Requested"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvItemRequested"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView42"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:text="Quantity"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvQuantity"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView43"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="Item Supplier"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvSupplier"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView42" />
+
+    <TextView
+        android:id="@+id/textView44"
+        android:layout_width="89dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="5dp"
+        android:text="Size Selected"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/tvSizeSelected"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/imageView7"
+        app:layout_constraintTop_toBottomOf="@+id/textView43" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="36dp"
+        android:backgroundTint="#EF6351"
+        android:text="View All Details"
+        app:layout_constraintEnd_toStartOf="@+id/button14"
+        app:layout_constraintTop_toBottomOf="@+id/sequenceLayout" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#EF6351"
+        android:text="Rework Application"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.547"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="28dp"
+        android:backgroundTint="#EF6351"
+        android:text="Order Again"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sequenceLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

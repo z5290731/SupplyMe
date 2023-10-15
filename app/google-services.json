@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "526112267299",
+    "project_id": "supplyme-rfs",
+    "storage_bucket": "supplyme-rfs.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:526112267299:android:b83204f2e3411d3ee92596",
+        "android_client_info": {
+          "package_name": "com.example.supplyme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "526112267299-hjq74eeoeh35mmpkc0v2009gvsmlc57q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCr0gLIcHYmb_tqBlIWtetyYeQT11QFkok"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "526112267299-hjq74eeoeh35mmpkc0v2009gvsmlc57q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

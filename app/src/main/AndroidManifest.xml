@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.supplyme">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SupplyMe"
+        tools:replace="android:allowBackup">
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="true" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".AcceptRejectFinalActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProfilePageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RequesterShippingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RequesterDetailsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RequesterItemSpecific"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".AddItemActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RequesterItemActivity"
+            android:exported="true" />
+        <activity
+            android:name=".message"
+            android:exported="true" />
+        <activity
+            android:name=".chatActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustPan" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:exported="true"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".viewCurrentCaseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CaseInformationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CurrentApprovalCaseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CurrentCaseActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RequestCompletedActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RequesterForm3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".RequesterForm2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".RequesterForm1Activity"
+            android:exported="true" />
+        <activity
+            android:name=".RequesterFormActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DetailActivityRequester"
+            android:exported="true" />
+        <activity
+            android:name=".AuthenticationActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

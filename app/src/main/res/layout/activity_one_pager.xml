@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#06aed5"
+        app:srcCompat="@drawable/rectanglemain"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <TextView
+        android:id="@+id/textView60"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:text="Request New Item"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Email Address"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="151dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Position"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="106dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Phone Number"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Stock Needs"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Quantity Required"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Item Requested"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="361dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Item Type Requested"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="309dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Suburb/ Town"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="567dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Agency Name"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="477dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Street Address"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Same Agency?"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="634dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Government Usage?"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="679dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Same Location?"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="724dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:hint="Stock Needs"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="769dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@drawable/ic_baseline_arrow_forward_24"
+        tools:layout_editor_absoluteX="333dp"
+        tools:layout_editor_absoluteY="769dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

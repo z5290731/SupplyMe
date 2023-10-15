@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequesterFormActivity">
+
+    <EditText
+        android:id="@+id/dateRequired"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:inputType="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.184"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/stockNeeds"
+        android:layout_width="266dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.299"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateRequired" />
+
+    <EditText
+        android:id="@+id/cluster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="156dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Cluster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.65"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stockNeeds" />
+
+    <EditText
+        android:id="@+id/cluster2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="156dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Cluster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/stockNeeds" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="157dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cluster" />
+
+    <EditText
+        android:id="@+id/positionEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="157dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Position"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameEditText" />
+
+    <EditText
+        android:id="@+id/emailEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="164dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/positionEditText" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="163dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
+
+    <EditText
+        android:id="@+id/editTextPhone3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="163dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
+
+    <EditText
+        android:id="@+id/editTextPhone4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="163dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
+
+    <EditText
+        android:id="@+id/editTextPhone5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="163dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
+
+    <EditText
+        android:id="@+id/editTextPhone6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="176dp"
+        android:layout_marginEnd="163dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
+
+    <EditText
+        android:id="@+id/editTextPhone7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="163dp"
+        android:ems="10"
+        android:inputType="phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailEditText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

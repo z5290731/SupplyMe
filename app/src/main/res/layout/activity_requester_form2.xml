@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequesterForm2Activity">
+
+    <Spinner
+        android:id="@+id/productTypeSpinner"
+        android:layout_width="250dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="164dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.195"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clustertv" />
+
+    <Spinner
+        android:id="@+id/productItemSpinner"
+        android:layout_width="250dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="164dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.211"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clustertv2" />
+
+    <Spinner
+        android:id="@+id/sizeSpinner"
+        android:layout_width="250dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="164dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clustertv3" />
+
+    <RadioGroup
+        android:id="@+id/agencyRadioGroup"
+        android:layout_width="330dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="164dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+        <RadioButton
+            android:id="@+id/agencyYesRadioButton"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/agencyNoRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textview11"
+        android:layout_width="304dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="164dp"
+        android:text="Are all items in this order being delivered to the same location?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/step2Next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Are all itmes in this order for the same agency?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/locationRadioGroup" />
+
+    <TextView
+        android:id="@+id/clustertv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="Product Type"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.097"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/agencyRadioGroup" />
+
+    <TextView
+        android:id="@+id/clustertv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Product Item"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/productTypeSpinner" />
+
+    <TextView
+        android:id="@+id/clustertv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/productItemSpinner" />
+
+    <TextView
+        android:id="@+id/clustertv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="164dp"
+        android:text="Quantity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sizeSpinner" />
+
+    <RadioGroup
+        android:id="@+id/locationRadioGroup"
+        android:layout_width="330dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="164dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.086"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview11">
+
+        <RadioButton
+            android:id="@+id/locationYesRadioButton"
+            android:layout_width="125dp"
+            android:layout_height="wrap_content"
+            android:text="Yes" />
+
+        <RadioButton
+            android:id="@+id/locationNoRadioButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="396dp"
+        android:layout_height="67dp"
+        android:background="#06aed5"
+        app:srcCompat="@drawable/rectanglemain"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-3dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="66dp"
+        android:layout_height="55dp"
+        android:background="#06aed5"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Second Page of Form"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toEndOf="@+id/imageButton13"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="46dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="16dp"
+        android:background="#06aed5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_help_24"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <EditText
+        android:id="@+id/quantityEditText"
+        android:layout_width="213dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="164dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/step2Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clustertv4"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

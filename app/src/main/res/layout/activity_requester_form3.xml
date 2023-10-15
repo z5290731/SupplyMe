@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RequesterForm3Activity">
+
+    <RadioGroup
+        android:id="@+id/governmentGroup"
+        android:layout_width="330dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="139dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.02"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2">
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/finishButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#06aed5"
+        android:text="Finish"
+        app:iconTint="#06aed5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextAddress1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="159dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="Address 1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clustertv2"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <RadioButton
+        android:id="@+id/locationYesRadioButton"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:text="Yes"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="171dp" />
+
+    <RadioButton
+        android:id="@+id/locationNoRadioButton"
+        android:layout_width="226dp"
+        android:layout_height="50dp"
+        android:text="No"
+        tools:layout_editor_absoluteX="167dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <TextView
+        android:id="@+id/textview24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="Agency Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.131"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Are the goods for NSW Government?"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.223"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAgency" />
+
+    <TextView
+        android:id="@+id/clustertv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Company Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.113"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/governmentGroup" />
+
+    <TextView
+        android:id="@+id/clustertv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Address"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.114"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextCompanyName" />
+
+    <TextView
+        android:id="@+id/clustertv3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Address Line 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAddress1" />
+
+    <TextView
+        android:id="@+id/clustertv4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Suburb/Town"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextAddress2" />
+
+    <EditText
+        android:id="@+id/editTextCompanyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:text="Cluster"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.208"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clustertv" />
+
+    <EditText
+        android:id="@+id/editTextSuburb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="165dp"
+        android:ems="10"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clustertv4" />
+
+    <EditText
+        android:id="@+id/editTextAgency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.203"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textview24" />
+
+    <EditText
+        android:id="@+id/editTextAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="159dp"
+        android:ems="10"
+        android:inputType="textPostalAddress"
+        android:text="Address 2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/clustertv3"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="396dp"
+        android:layout_height="67dp"
+        android:background="#06aed5"
+        app:srcCompat="@drawable/rectanglemain"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="-3dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton13"
+        android:layout_width="66dp"
+        android:layout_height="55dp"
+        android:background="#06aed5"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="6dp" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Final Page of Form"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.263"
+        app:layout_constraintStart_toEndOf="@+id/imageButton13"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton15"
+        android:layout_width="46dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="16dp"
+        android:background="#06aed5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_baseline_help_24"
+        tools:layout_editor_absoluteY="5dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
